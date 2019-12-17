@@ -27,6 +27,7 @@ end
 
 def reduce_to_any_true(source_array)
   source_array.each do |n|
+    binding.pry
     if n == true 
       source_array.reduce do |sum,n|
         sum + n
