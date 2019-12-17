@@ -1,3 +1,5 @@
+require "pry"
+
 def map_to_negativize(source_array)
   source_array.map do |n| 
     n * -1
@@ -24,7 +26,7 @@ end
 
 def reduce_to_total(source_array, starting_point = nil)
   source_array.reduce do |n|
-    n + n
+    binding.pry 
   end 
 end 
 
