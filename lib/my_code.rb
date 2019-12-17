@@ -26,10 +26,11 @@ end
 
 def reduce_to_total(source_array, starting_point = nil)
   source_array.reduce do |n|
-    binding.pry 
+     
   end 
 end 
 
+#source array = [1, 2, 3]
 
 
 
