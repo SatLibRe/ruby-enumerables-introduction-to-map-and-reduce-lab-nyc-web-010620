@@ -34,8 +34,8 @@ end
 def reduce_to_any_true(source_array)
   source_array.each do |n|
     if n == true 
-      source_array.reduce do |n|
-        n + n
+      source_array.reduce do |sum,n|
+        sum + n
       end 
     end
   end
