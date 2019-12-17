@@ -30,7 +30,7 @@ def reduce_to_total(source_array,starting_point)
   end 
 end 
 
-#source_array = [1, 2, 3]
+
 
 
 
